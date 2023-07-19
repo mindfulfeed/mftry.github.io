@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mftry.github.io/static/css/main.ec1ecc97.css",
+    "main.js": "/mftry.github.io/static/js/main.1fc53890.js",
+    "static/js/787.6f407ca9.chunk.js": "/mftry.github.io/static/js/787.6f407ca9.chunk.js",
+    "static/media/mblogo.svg": "/mftry.github.io/static/media/mblogo.92d3eba38c0eb710a49be139f21e47f1.svg",
+    "static/media/Poppins-ExtraBold.ttf": "/mftry.github.io/static/media/Poppins-ExtraBold.827665571a9c05f84abd.ttf",
+    "static/media/404.svg": "/mftry.github.io/static/media/404.33c7905fea528c4e9d7f0e0e291fd3d3.svg",
+    "static/media/t1.png": "/mftry.github.io/static/media/t1.ebe1be69ed15cb712a1e.png",
+    "static/media/LufgaRegular.ttf": "/mftry.github.io/static/media/LufgaRegular.4f0d570c75aa41c936e1.ttf",
+    "static/media/congoo.svg": "/mftry.github.io/static/media/congoo.1a05818f7bdd6d965054255e6f17ea57.svg",
+    "static/media/3b1blogo.svg": "/mftry.github.io/static/media/3b1blogo.e776e4e7060e67f6f9bee8210f755974.svg",
+    "static/media/zen.svg": "/mftry.github.io/static/media/zen.f3d99fe9d88d2498c60f48eed7876906.svg",
+    "static/media/logo.svg": "/mftry.github.io/static/media/logo.f7611b5c8f3b3f5be52569292a42c5fa.svg",
+    "static/media/websitelogo.svg": "/mftry.github.io/static/media/websitelogo.6746b1af3106eae3efc38bb6b641292b.svg",
+    "static/media/logo2.svg": "/mftry.github.io/static/media/logo2.d758008d93074ab6cb78eaf695961f09.svg",
+    "static/media/Youtubeyoutubelogo.svg": "/mftry.github.io/static/media/Youtubeyoutubelogo.dda6ab549f3d1230fe8c76e9506cb6f9.svg",
+    "index.html": "/mftry.github.io/index.html",
+    "main.ec1ecc97.css.map": "/mftry.github.io/static/css/main.ec1ecc97.css.map",
+    "main.1fc53890.js.map": "/mftry.github.io/static/js/main.1fc53890.js.map",
+    "787.6f407ca9.chunk.js.map": "/mftry.github.io/static/js/787.6f407ca9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec1ecc97.css",
+    "static/js/main.1fc53890.js"
+  ]
+}
