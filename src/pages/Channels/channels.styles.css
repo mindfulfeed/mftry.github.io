@@ -1,0 +1,198 @@
+.channel-page-container {
+  background-color: #FFF;
+  padding: 20px; /* Add padding to the container */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.logo-container {
+  text-align: left;
+}
+
+.website-logo {
+  padding: 15px;
+  width: 100px;
+}
+
+.youtube-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.youtube-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.youtube-heading {
+  color: #000;
+  font-size: 24px;
+}
+
+.div-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap */
+  justify-content: center; /* Center the flex items horizontally */
+  align-items: flex-start; /* Align flex items to the top */
+  margin-top: 20px;
+  gap: 20px; /* Add gap between flex items */
+}
+
+.channel-div {
+  background-color: #FF9300;
+  border-radius: 40px;
+  padding: 20px;
+  width: 360px; /* Set the fixed width */
+  height: calc(360px * 197 / 360); /* Calculate the height based on the aspect ratio */
+  margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.education {
+  background-color: #FF9300;
+}
+
+.entertainment {
+  background-color: #00AAFF;
+}
+
+.channel-content {
+  display: flex;
+  align-items: center;
+  justify-content: start; /* Add space between items */
+  width: 100%; /* Take full width */
+  
+}
+
+.channel-logo {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.channel-info {
+  text-align: left;
+  margin-left: -100px; /* Adjust the left margin */
+  margin-right: 50px;
+  display: flex; /* Add display property */
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start horizontally */
+  position: relative; /* Add position property */
+  left: 100px; /* Add left position */
+}
+
+.channel-name {
+  color: #FFF;
+  font-size: 24px;
+  margin-bottom: 1px;
+}
+
+.channel-id {
+  color: #FFF;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
+.channel-genre {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0; /* Prevent shrinking to maintain width */
+  justify-content: flex-end; /* Align buttons to the end */
+  width: auto; /* Allow width to adjust based on content */
+}
+
+.view-button,
+.manage-button {
+  background-color: #FFF;
+  color: #333;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  flex-grow: 1; /* Grow to occupy remaining space */
+  width: 144px; /* Set the fixed width */
+  height: calc(144px * 51 / 144); /* Calculate the height based on the aspect ratio */
+}
+
+.view-button:hover,
+.manage-button:hover {
+  background-color: #EEE;
+}
+
+.add-new-button {
+  margin-top: 20px;
+  background-color: #FFF;
+  color: #888;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recommended-channels-container {
+  background-color: #353535;
+  border-radius: 25px 25px 0 0;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;
+}
+
+.recommended-div {
+  background-color: #4F4F4F;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.recommended-content {
+  display: flex;
+  align-items: center;
+}
+
+.recommended-heading {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.recommended-divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .channel-div {
+    width: 100%; /* Change to occupy 100% width on smaller screens */
+    margin-right: 0; /* Remove the right margin */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .div-container {
+    justify-content: flex-start; /* Align flex items to the start */
+  }
+
+  .recommended-divs {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .recommended-channels-container {
+   
+    overflow-y: scroll;
+  }
+}

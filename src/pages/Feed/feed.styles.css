@@ -1,0 +1,105 @@
+.feed-container {
+    background-color: #FE0050;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feed-top-section {
+    background-color: #FE0050;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the start vertically */
+    align-items: flex-start; /* Align items to the start horizontally */
+    position: relative; /* Add position property */
+
+  }
+  
+  .feed-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    margin-top: -20px;
+  }
+  
+  .feed-welcome-message {
+    color: white;
+  }
+  
+  .feed-username {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .feed-welcome {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .feed-bottom-section {
+    background-color: white;
+    flex: 2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px 30px 0 0;
+    overflow: hidden;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .feed-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .feed-go-to-feed-button {
+    padding: 0.5rem 1rem;
+    background-color: #FE0050;
+    color: white;
+    font-weight: normal; /* Change bold to normal */
+    border: none;
+    border-radius: 20px; /* Increase border radius for more curved edges */
+    cursor: pointer;
+    width: 150px; /* Decrease the width */
+    height: 40px; /* Increase the height */
+  }
+  
+  
+  .feed-channels-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 2rem;
+  }
+  
+  .feed-channels-subheading {
+    color: #999999;
+    margin-bottom: 2rem;
+  }
+  
+  .feed-manage-channels {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feed-youtube-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+  
+  .feed-manage-button {
+    padding: 0.5rem 1rem;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
